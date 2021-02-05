@@ -23,8 +23,10 @@ export default class GalAge {
 
   getMars()  {
     this.age /= 1.88;
+    this.averageAge /= 1.88;
+    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)]
     // console.log(this.age);
-    return Math.trunc(this.age);
+    return this.ageArray;
   }
 
   getJupiter()  {
