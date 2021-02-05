@@ -2,6 +2,7 @@ export default class GalAge {
   constructor(userAge) {
     this.age = userAge;
     this.averageAge = 80;
+    this.ageArray = [this.age, this.averageAge];
   }
 
   getMerc()  {
