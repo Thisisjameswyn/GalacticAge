@@ -31,7 +31,9 @@ export default class GalAge {
 
   getJupiter()  {
     this.age /= 11.86;
+    this.averageAge /= 11.86;
+    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)]
     // console.log(this.age);
-    return Math.trunc(this.age);
+    return this.ageArray;
   }
 }
