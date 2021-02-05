@@ -15,8 +15,10 @@ export default class GalAge {
 
   getVenus()  {
     this.age /= .62;
+    this.averageAge /= .62;
+    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)]
     // console.log(this.age);
-    return Math.trunc(this.age);
+    return this.ageArray;
   }
 
   getMars()  {
