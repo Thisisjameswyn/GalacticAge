@@ -14,6 +14,7 @@ export default class GalAge {
   }
 
   getMars()  {
-
+    this.age *= 1.88;
+    return this.age;
   }
 }
