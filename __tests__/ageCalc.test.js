@@ -12,6 +12,10 @@ describe('GalAge',() => {
     expect(testAge.age).toEqual(50);
   });
 
+  test('should correctly construct an object with average age', () => {
+    expect(testAge.averageAge).toEqual(80);
+  });
+
   test('should correctly convert given age to mercury years', () => {
     expect(testAge.getMerc()).toEqual(208);
   });
