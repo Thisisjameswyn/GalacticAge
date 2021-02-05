@@ -4,6 +4,7 @@ export default class GalAge {
   }
 
   getMerc()  {
-    
+    this.age *= .24;
+    return this.age;
   }
 }
