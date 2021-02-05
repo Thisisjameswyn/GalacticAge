@@ -1,5 +1,5 @@
 export default class GalAge {
   constructor(userAge) {
-    // this.age = userAge;
+    this.age = userAge;
   }
 }
