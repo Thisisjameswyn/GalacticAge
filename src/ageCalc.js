@@ -19,6 +19,7 @@ export default class GalAge {
   }
 
   getJupiter()  {
-
+    this.age /= 11.86;
+    return Math.trunc(this.age);
   }
 }
