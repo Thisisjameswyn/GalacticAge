@@ -13,14 +13,18 @@ describe('GalAge',() => {
   });
 
   test('should correctly convert given age to mercury years', () => {
-    expect(testAge.getMerc()).toEqual(12);
+    expect(testAge.getMerc()).toEqual(208);
   });
 
   test('should correctly convert given age to venus years', () => {
-    expect(testAge.getVenus()).toEqual(31);
+    expect(testAge.getVenus()).toEqual(80);
   });
 
   test('should correctly convert given age to mars years', () => {
-    expect(testAge.getMars()).toEqual(94);
+    expect(testAge.getMars()).toEqual(26);
+  });
+
+  test('should correctly convert given age to jupiter years', () => {
+    expect(testAge.getJupiter()).toEqual(4);
   });
 });

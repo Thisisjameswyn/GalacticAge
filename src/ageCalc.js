@@ -4,17 +4,21 @@ export default class GalAge {
   }
 
   getMerc()  {
-    this.age *= .24;
-    return this.age;
+    this.age /= .24;
+    return Math.trunc(this.age);
   }
 
   getVenus()  {
-    this.age *= .62;
-    return this.age;
+    this.age /= .62;
+    return Math.trunc(this.age);
   }
 
   getMars()  {
-    this.age *= 1.88;
-    return this.age;
+    this.age /= 1.88;
+    return Math.trunc(this.age);
+  }
+
+  getJupiter()  {
+
   }
 }
