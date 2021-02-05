@@ -7,4 +7,9 @@ export default class GalAge {
     this.age *= .24;
     return this.age;
   }
+
+  getVenus()  {
+    // this.age *= .24;
+    // return this.age;
+  }
 }

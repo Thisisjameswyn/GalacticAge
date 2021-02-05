@@ -15,4 +15,8 @@ describe('GalAge',() => {
   test('should correctly convert given age to mercury years', () => {
     expect(testAge.getMerc()).toEqual(12);
   });
+
+  test('should correctly convert given age to mercury years', () => {
+    expect(testAge.getVenus()).toEqual(31);
+  });
 });
