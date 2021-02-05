@@ -8,32 +8,28 @@ export default class GalAge {
   getMerc()  {
     this.age /= .24;
     this.averageAge /= .24;
-    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)]
-    // console.log(this.age);
+    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)];
     return this.ageArray;
   }
 
   getVenus()  {
     this.age /= .62;
     this.averageAge /= .62;
-    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)]
-    // console.log(this.age);
+    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)];
     return this.ageArray;
   }
 
   getMars()  {
     this.age /= 1.88;
     this.averageAge /= 1.88;
-    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)]
-    // console.log(this.age);
+    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)];
     return this.ageArray;
   }
 
   getJupiter()  {
     this.age /= 11.86;
     this.averageAge /= 11.86;
-    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)]
-    // console.log(this.age);
+    this.ageArray = [Math.trunc(this.age), Math.trunc(this.averageAge)];
     return this.ageArray;
   }
 }
