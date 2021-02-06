@@ -51,29 +51,29 @@ This is my fifth week project for Epicodus.  The objective is to take a given ag
 ### Specs
 
 * Describe: GalAge
-Test: "should correctly construct an object with given age"
+Test: "should correctly construct an object with given age"\
 Expect(testAge.age).toEqual(50)
 
-* Test: "should correctly construct an object with average age"
+* Test: "should correctly construct an object with average age"\
 Expect(testAge.averageAge).toEqual(80)
 
-* Test: "should correctly construct an object with an age and average age array"
+* Test: "should correctly construct an object with an age and average age array"\
 Expect(testAge.ageArray).toEqual([50, 80])
 
 * Describe: GalAge.getMerc()
-Test: "should correctly convert given age and average age to mercury years"
+Test: "should correctly convert given age and average age to mercury years"\
 Expect(testAge.getMerc()).toEqual([208, 333])
 
 * Describe: GalAge.getVenus()
-Test: "should correctly convert given age and average age to venus years"
+Test: "should correctly convert given age and average age to venus years"\
 Expect(testAge.getVenus()).toEqual([80, 129])
 
 * Describe: GalAge.getMars()
-Test: "should correctly convert given age and average age to mars years"
+Test: "should correctly convert given age and average age to mars years"\
 Expect(testAge.getMars()).toEqual([26, 42])
 
 * Describe: GalAge.getJupiter()
-Test: "should correctly convert given age and average age to jupiter years"
+Test: "should correctly convert given age and average age to jupiter years"\
 Expect(testAge.getJupiter()).toEqual([4, 6])
 
 ## License
